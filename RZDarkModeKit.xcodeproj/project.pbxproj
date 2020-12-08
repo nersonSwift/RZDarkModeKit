@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		51E13749257FA21500333C01 /* RZDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E13747257FA21500333C01 /* RZDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51E13751257FA26A00333C01 /* RZDarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E13750257FA26A00333C01 /* RZDarkModeKit.swift */; };
+		51E13759257FA8C200333C01 /* RZDarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E13758257FA8C200333C01 /* RZDarkModeKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51E13744257FA21500333C01 /* RZDarkModeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RZDarkModeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E13747257FA21500333C01 /* RZDarkModeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZDarkModeKit.h; sourceTree = "<group>"; };
 		51E13748257FA21500333C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51E13750257FA26A00333C01 /* RZDarkModeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RZDarkModeKit.swift; path = ../../../RelizKit/RZUIKit/RZDarkModeKit/RZDarkModeKit.swift; sourceTree = "<group>"; };
+		51E13758257FA8C200333C01 /* RZDarkModeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZDarkModeKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +48,9 @@
 		51E13746257FA21500333C01 /* RZDarkModeKit */ = {
 			isa = PBXGroup;
 			children = (
+				51E13758257FA8C200333C01 /* RZDarkModeKit.swift */,
 				51E13747257FA21500333C01 /* RZDarkModeKit.h */,
 				51E13748257FA21500333C01 /* Info.plist */,
-				51E13750257FA26A00333C01 /* RZDarkModeKit.swift */,
 			);
 			path = RZDarkModeKit;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51E13751257FA26A00333C01 /* RZDarkModeKit.swift in Sources */,
+				51E13759257FA8C200333C01 /* RZDarkModeKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
