@@ -22,11 +22,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = '13.0'
 
   spec.requires_arc = true
+  spec.source_files = 'RZDarkModeKit/**/*'
 
-  spec.default_subspec = 'Core'
-
-  spec.subspec 'Core' do |core|
-    core.source_files   = 'RZDarkModeKit/**/*'
-  end
 
 end
